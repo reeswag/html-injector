@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script src="./scripts/injector.js"></script>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+    <main id="main">
+        <h1 id="title">HTML Injector</h1>
+        <p>Use the below form to inject HTML into this webpage.</p>
+        <div id="custom"></div>
+        <form>
+            <textarea id="input_id" rows="4" cols="50" value=""></textarea><br>
+            <input type="button" value="Submit" onclick="injector()" />
+        </form>
+        <p>Use the below form to inject a source into the iframe.</p>
+        <iframe id="myframe" src=""></iframe>
+        <form>
+            <input type="text" id="iframe_input_id" value="">
+            <input type="button" value="Submit" onclick="iframe()" />
+        </form>
+    </main>
+    </body>
+</html>

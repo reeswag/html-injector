@@ -1,0 +1,29 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  #main {
+    display: block;
+    min-width: 60%;
+    max-width: 1000px;
+    min-height: 100%;
+    margin: auto;
+    color: white;
+    background: black;
+    padding: 1%;
+  }
+  #rand {
+    border-radius: 40px;
+    color: white;
+    background-color: black;
+  }
+  #img-div {
+    display: block;
+  }
+  
+  #image {
+    height: auto;
+    max-width:100%;
+  }  
